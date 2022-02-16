@@ -563,15 +563,12 @@ section select{
 
 .boxpenal1-mobile{
 	height: 200px;
-	display: block;
 	width: 400px;
+	display: block;
 	background-image: url(../img/asesoria-penal400.jpg);
-	background-size: contain;
+	background-size: inherit;
 	background-attachment: fixed;
-	
-
-
-
+	background-repeat: no-repeat;
 }
 
 
