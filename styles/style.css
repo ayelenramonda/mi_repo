@@ -535,7 +535,7 @@ section select{
 }
 
 
-@media all and (max-width: 600px){
+@media all and (max-width: 400px){
 	.main {
 		width: 400px;
 		
