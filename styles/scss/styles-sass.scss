@@ -1,0 +1,66 @@
+@import "variables.scss";
+@mixin border-radius($radius) {
+	border-radius: $radius;
+}
+
+
+.divforo-img{
+	width: $ancho;
+	height: 200px;
+	background-repeat: no-repeat;
+	display: flex;
+	flex-direction: row;
+	overflow:hidden;
+		&:hover{
+			filter: brightness(120%);
+			transition: all 0.5s;
+			
+				}
+}
+
+.btn btn-primary {
+	background-color: $boton;
+	border: $bordes;
+}
+
+section ul {
+	max-width: 600px;
+	list-style: none;
+ 	margin: auto;
+ 	display: flex;
+ 	flex-direction: column;
+ 		li{
+			height: 45px;
+		    text-decoration: none;
+		       		input {
+						height: 35px;
+						line-height: 35px;
+						padding-left: 10px;
+								label{
+									select{
+										height: 35px;
+										line-height: 35px;
+																				
+											textarea{
+														width:$ancho;
+													  	height: 90px;
+													  	font-family: $tipografia;
+													  	color: $color; 
+														border-radius: $radius;
+														resize: none;
+														border: $bordes;
+														padding:  10px 0 0 10px;
+														margin-bottom: 20px;
+														font-size: $medida;																	}	
+												}
+
+								}
+				
+
+						}
+  	
+
+
+		}		
+}
+
