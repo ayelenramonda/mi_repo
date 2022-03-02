@@ -23,6 +23,14 @@
 	border: $bordes;
 }
 
+$colortipo: (
+	gris: lightgray,
+	azul: darkblue,
+	grisO: darkgrey,
+	negro: dark,
+	blanco: white,
+);
+
 section ul {
 	max-width: 600px;
 	list-style: none;
@@ -32,11 +40,13 @@ section ul {
  		li{
 			height: 45px;
 		    text-decoration: none;
+		    		form{
 		       		input {
 						height: 35px;
 						line-height: 35px;
 						padding-left: 10px;
 								label{
+
 									select{
 										height: 35px;
 										line-height: 35px;
@@ -45,8 +55,8 @@ section ul {
 														width:$ancho;
 													  	height: 90px;
 													  	font-family: $tipografia;
-													  	color: $color; 
-														border-radius: $radius;
+													  	color: map-get($colortipo, grisO);
+													  	@include border-radius (0.25rem);
 														resize: none;
 														border: $bordes;
 														padding:  10px 0 0 10px;
@@ -55,7 +65,7 @@ section ul {
 												}
 
 								}
-				
+				}
 
 						}
   	
@@ -63,4 +73,28 @@ section ul {
 
 		}		
 }
+
+footer{
+	font-family: $tipografia;
+	display: flex;
+	flex-direction: column;
+	}
+
+.legal{
+		background-color: #CEDEEA;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		margin-top: 10px;
+					}
+.lega2 {
+	@extend .legal;
+	background-color: lightgreen;
+	color: map-get($colortipo, negro);
+	font-size: 14px;
+
+						}
+
+
+			
 
