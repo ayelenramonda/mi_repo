@@ -27,26 +27,46 @@ section ul li {
   height: 45px;
   text-decoration: none;
 }
-section ul li input {
+section ul li form input {
   height: 35px;
   line-height: 35px;
   padding-left: 10px;
 }
-section ul li input label select {
+section ul li form input label select {
   height: 35px;
   line-height: 35px;
 }
-section ul li input label select textarea {
+section ul li form input label select textarea {
   width: 100%;
   height: 90px;
   font-family: "Open Sans Condensed", sans-serif;
-  color: grey;
+  color: darkgrey;
   border-radius: 0.25rem;
   resize: none;
   border: 1px solid lightgray;
   padding: 10px 0 0 10px;
   margin-bottom: 20px;
   font-size: 1.5em;
+}
+
+footer {
+  font-family: "Open Sans Condensed", sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.legal, .lega2 {
+  background-color: #CEDEEA;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.lega2 {
+  background-color: lightgreen;
+  color: dark;
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=styles-sass.css.map */
