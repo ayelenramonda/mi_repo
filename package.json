@@ -1,0 +1,14 @@
+{
+  "name": "mi_repo-master",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    “build-css”: “node-sass --include-path scss styles/scss/styles-sass.scss styles/styles/styles-sass.css”,
+    “watch-css”: “nodemon -e scss -x \”npm run build-css\””
+
+  },
+  "author": "",
+  "license": "ISC"
+}
