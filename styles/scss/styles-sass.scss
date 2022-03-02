@@ -1,6 +1,6 @@
 @import "variables.scss";
-@mixin border-radius($radius) {
-	border-radius: $radius;
+@mixin border-radius {
+	border-radius: 0.25rem;
 }
 
 
@@ -56,7 +56,7 @@ section ul {
 													  	height: 90px;
 													  	font-family: $tipografia;
 													  	color: map-get($colortipo, grisO);
-													  	@include border-radius (0.25rem);
+													  	@include border-radius;
 														resize: none;
 														border: $bordes;
 														padding:  10px 0 0 10px;
