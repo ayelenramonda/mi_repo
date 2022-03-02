@@ -277,21 +277,7 @@ header li {
 
 
 
-footer{
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 14px;
-	display: flex;
-	flex-direction: column;
-	
-	}
 
-footer .legal{
-	background-color: #CEDEEA;
-	padding: 10px;
-	display: flex;
-	flex-direction: column;
-	margin-top: 10px;
-}
 
 .mapa{
 	overflow:hidden;
@@ -407,6 +393,10 @@ section label{
 form{
 	display: flex;
 	flex-direction: column;
+}
+
+.mb-3{
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .divboton{
