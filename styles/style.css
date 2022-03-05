@@ -327,6 +327,25 @@ header li {
 
 }
 
+.boxlaboral {
+	width: 100%;
+	height: 200px;
+	display: flex;
+	margin-top: 30px;
+	background-image: url(../img/laboral-1080.png);
+	background-size: inherit;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position-x:center ;
+
+
+	}
+
+.boxlaboral-mobile{
+	display: none;
+
+}
+
 .boxcivil1 {
 	width: 100%;
 	height: 200px;
@@ -432,6 +451,7 @@ form{
 	height: 40px;
 	border: solid 1px lightgray;
 	font-family: 'Open Sans Condensed', sans-serif; !important
+
 }
 
 .btn:hover{
@@ -573,6 +593,13 @@ section select{
  
  /*-----comienza media query------*/
 
+@media all and (max-width:700px){
+	.card-body, .card {
+		flex-direction: column;	
+		
+	}
+}
+
 @media all and (max-width: 400px){
 	.main {
 		width: 400px;
@@ -610,6 +637,16 @@ section select{
 
 
 
+}
+.boxlaboral {
+	display: none;
+	}
+
+.boxlaboral-mobile{
+	height: 200px;
+	display: block;
+	background-image: url(../img/laboral-400.png);
+	background-attachment: fixed;
 }
 
 .boxcivil1 {
